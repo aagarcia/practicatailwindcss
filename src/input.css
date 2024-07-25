@@ -15,3 +15,7 @@
     format('truetype');
   font-weight: 400;
 }
+
+.custom-list-decimal ::marker {
+  @apply font-outfit text-pingre font-bold;
+}

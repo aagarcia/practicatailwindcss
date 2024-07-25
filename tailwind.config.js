@@ -2,6 +2,12 @@
 module.exports = {
   content: ['./src/**/*.{html,js}', './index.html'],
   theme: {
+    colors: {
+      ptime: '#FFF7FC',
+      ptimetitle: '#71364F',
+      ptimedesc: '#6D6565',
+      pingre: '#854B34',
+    },
     screens: {
       sm: { min: '0px', max: '376px' },
     },
